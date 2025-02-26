@@ -1,4 +1,4 @@
 // function to clone a github repo
-def call(string git_url, string git_branch){
-  git url: git_url, branch: git_branch
+def call(String url,String branch){
+    git url: "${url}", branch: "${branch}"
 }
